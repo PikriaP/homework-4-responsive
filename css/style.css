@@ -1,0 +1,101 @@
+.bg-image-header {
+    width: 100%;
+    height: 324px;
+    background-image: url(../images/palms.jpg);
+    background-position: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+     
+   
+}
+.navigation-flex {
+    width: 1089px;
+    height: 20px;
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;   
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li {
+    margin-right: 49px;
+}
+.nav-li:last-child {
+    margin-right: o;
+}
+a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+.bg-image-header::before {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 60%;
+    display: block;
+}
+.header-text {
+    /* display: flex; */
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 145px;
+    margin-left: 139px;
+}
+h1 {
+    font-size: 42px;
+
+}
+.line {
+    width:2px;
+    height: 19px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.line2 {
+    display: flex;
+    margin-top: 15px;
+}
+/* second section */
+.second-section {
+    width:1088px;
+    height: 461px;
+    margin: 0 auto;
+    display: flex;
+}
+a:hover::after{
+    color: blue;
+}
+.left-block {
+   width:444px;
+   height: 388px;
+}
+.blue-box {
+    width: 184px;
+    height: 90px;
+    background-color: #5863F8;
+    justify-content: center;
+}
+.right-block {
+    width: 536px;
+    height: 461px;
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    
+}
+.image1{
+    width: 536px;
+    height: 260px;
+    display: block;
+}
