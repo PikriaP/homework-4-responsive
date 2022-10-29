@@ -91,9 +91,6 @@ a:hover::after{
     display: flex;
     justify-content: space-around;
 }
-.image {
-    
-}
 .image1{
     width: 536px;
     height: 260px;
