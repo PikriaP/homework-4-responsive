@@ -195,14 +195,90 @@ a:hover::after {
 .hello {
     font-size: 14px;
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
 }
 .blue-circle{
     background-color: #5863F8;
     border-radius: 50%;
     width: 59px;
     height: 58px;
-    position: absolute;
+    /* position: absolute; */
     margin: o auto;
 }
 
+
+
+
+/* third section */
+.container-wraper {
+    max-width: 1098px;
+    width:80%;
+    margin:0 auto;
+    background-color: #FFFFFF;
+    padding-top: 90px;
+}
+.text-wraper p {
+    max-width: 565px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.image-section-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 275px;
+}
+.image-block {
+    width: 352px;
+}
+.image-block img {
+    width: 100%;
+}
+.add {
+    color: #000000;
+
+}
+/* footer */
+.footer-bg {
+    background-color: #121212;
+    padding: 90px 0 40px 0;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-block01 {
+    width: 260px;
+}
+.contact-icon {
+    color: #5863F8;
+    margin-right: 14px;
+}
+.footer-social-icons {
+    display: flex;
+}
+.size-social {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soc-contact-fb {
+    background-color: #3B5998; 
+}
+.soc-contact-twitter {
+    background-color: #55ACEE;
+    margin:0 15px;
+}
+.soc-contact-google {
+    background-color: #DC4E41;
+}
+
+.Marius::after {
+    background-image: url(../images/marius.png) ;
+}
