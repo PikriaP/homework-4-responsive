@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header> 
         <div class="bg-image-header">
             <div class="navigation-flex">
-                <a href="#">Zetta Hotels</a>
+                <a href="index.html">Zetta Hotels</a>
                 <nav>
                    <ul class="nav-ul">
+                    
                        <li class="nav-li">
-                            <a href="#"> HOME</a> 
+                            <a href="index.html"> HOME</a> 
                         </li>
                         <li class="nav-li">
                             <a href="#"> ROOMS</a>
@@ -34,7 +36,11 @@
                         <li class="nav-li"> 
                             <a href="#"> CONTACT</a>
                         </li>
+                        
                     </ul>
+                    <a id="fa-duotone" class="fa-duotone">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
                 </nav>
             </div>
             <div class="header-text">
@@ -123,7 +129,11 @@
                 <h3>Testimonials</h3>
                 <h2>We trust our customers
                     and they trust us too</h2>
-                <p class="Marius">Marius Ciocirlan>
+                <div class="Marius">
+                    <img src="images/marius.png" alt="marius">
+                    Marius Ciocirlan
+                </div>
+                    
                 <p>I'm very glad I had the opportunity to visit this hotel. The stuff is very friendly and I will definetly visit the hotel again next year. 
 
                 </p>   
@@ -159,67 +169,61 @@
       </div>
     </div>
   </section>
-  <footer class="footer-bg">
-    <div class="container-wraper footer-flex">
-      <div class="footer-block01">
-        <h2>zetta hotels</h2>
-        <p>
-          Our hotel is an image of quality and profesionalism combined with
-          hard work and precision. You can expect only the best services from
-          our staff.
-        </p>
-        <div class="footer-social-icons">
-          <div class="soc-contact-fb size-social">
-              <i class="fa-brands fa-facebook-f"></i>
-          </div>
-          <div class="soc-contact-twitter size-social">
-              <i class="fa-brands fa-twitter"></i>
-          </div>
-          <div class="soc-contact-google size-social">
-              <i class="fa-brands fa-google-plus-g"></i>
-          </div>
+  <footer>
+        <div class="footer-container">
+            <div class="footer-text-block">
+                <h3 class="footer-title">Zetta Hotels</h3>
+                <p class="footer-pteg">Our hotel is an image of quality and profesionalism combined with hard work and precision. 
+                    You can expect only the best services from our staff.
+                </p>
+                <div class="icon-wraper-box">
+                <div class="frames"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="frames"><i class="fa-brands fa-twitter"></i></div>
+                <div class="frames"><i class="fa-brands fa-google-plus-g"></i></div>
+                </div>
+            </div>
+            <div class="footer-text-block">
+                <h3 class="footerh3">Useful links</h3>
+                <ul class="blue-ul">
+                    <li><a class="blue" href="#">Blog</a></li>
+                    <li><a class="blue" href="#">Rooms</a></li>
+                    <li><a class="blue" href="#">Gift Card</a></li>
+                    <li><a class="blue" href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-text-block">
+                <h3 class="footerh3">Privacy</h3>
+                <ul class="blue-ul">
+                    <li><a class="blue" href="#">Career</a></li>
+                    <li><a class="blue" href="#">About Us</a></li>
+                    <li><a class="blue" href="#">Contact Us</a></li>
+                    <li><a class="blue" href="#">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-text-block">
+                <h3 class="footerh3">Contact Info</h3>
+                <ul class="blue-ul">
+                    <li>
+                        <a class="white" href="mailto:example@yahoo.com">
+                            <i class="fa-solid fa-icon-envilope"></i></i>
+                            example@yahoo.com
+                        </a>
+                    </li><li class="space-ul">
+                        <a class="white" href="tel:+0 320 422 4254"><i class="fa-solid fa-phone"></i>
+                            +0 320 422 4254
+                        </a>
+                    </li>
+                    <li class="space-ul">
+                        <a class="white" href="https://www.google.com/maps/place/Main+St,+Illinois,+USA/@42.0359549,-87.7029901,11.81z/data=!4m5!3m4!1s0x880fcf125159251d:0x3a1596f87b6d774f!8m2!3d42.0334735!4d-87.7495119">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Main Str Chicago Ilinois
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="copyright">Copyright ©2020 All rights reserved | This template is made with love by <a class="blue" href="#">Marian</a></p>
         </div>
-      </div>
-
-      <div class="footer-block">
-        <h2>Useful links</h2>
-        <ul>
-          <li>Blog</li>
-          <li>Blog</li>
-          <li>Blog</li>
-          <li>Blog</li>
-        </ul>
-      </div>
-
-      <div class="footer-block">
-        <h2>Privacy</h2>
-        <ul>
-          <li>Blog</li>
-          <li>Blog</li>
-          <li>Blog</li>
-          <li>Blog</li>
-        </ul>
-      </div>
-
-      <div class="footer-block">
-        <h2>Contact Info</h2>
-        <ul>
-          <li>
-            <i class="fa-solid fa-envelope contact-icon"></i>
-            <span>example@yahoo.com</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-phone-flip contact-icon"></i>
-            <span>+0 320 422 4254</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-location-dot contact-icon"></i>
-            <span>Lcoation</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 </body>
 </html>

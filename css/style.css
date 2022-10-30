@@ -20,7 +20,7 @@
     transform: translateX(-50%);
     
 }
-.nav-ul {
+.navigation {
     display: flex;
     justify-content: space-between;
 }
@@ -192,6 +192,7 @@ a:hover::after {
     margin-left: 139px;
     margin-top: 92px;
 }
+
 .hello {
     font-size: 14px;
     font-weight: bold;
@@ -240,45 +241,112 @@ a:hover::after {
 
 }
 /* footer */
-.footer-bg {
+footer {
+    width: 100%;
     background-color: #121212;
-    padding: 90px 0 40px 0;
+    padding: 89px 0 41px 0;
 }
-.footer-flex {
+.footer-container {
+    max-width: 1088px;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: space-between;
 }
-.footer-block01 {
+.footer-text-block:nth-child(1){
     width: 260px;
 }
-.contact-icon {
-    color: #5863F8;
-    margin-right: 14px;
+.footer-title{
+    font-size: 24px;
+    font-family: 'Poppins Bold', sans-serif;
+    color: white;
 }
-.footer-social-icons {
+.footer-pteg{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #B1B1B1;
+    line-height: 19px;
+    margin-top: 22px;
+}
+.icon-wraper-box{
+    width: 126px;
+    margin-top: 20px;
     display: flex;
+    justify-content: space-between;
 }
-.size-social {
+.text-block-footer:nth-child(2){
+    margin-left: 55px;
+}
+.frames{
     width: 35px;
     height: 35px;
-    color: #fff;
-    border-radius: 50%;
+    background-color: blue;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.soc-contact-fb {
-    background-color: #3B5998; 
+.frames:nth-child(1){
+    background-color: #3B5998;
 }
-.soc-contact-twitter {
+.frames:nth-child(2){
     background-color: #55ACEE;
-    margin:0 15px;
 }
-.soc-contact-google {
+.frames:nth-child(3){
     background-color: #DC4E41;
 }
+.fa-brands{
+    color: white;
+}
 
-.Marius::after {
+
+
+.footerh3{
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins SemiBold', sans-serif;
+    
+}
+.blue-ul{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    line-height: 28px;
+    margin-top: 18px;
+}
+.blue{
+    color: #5863F8;
+}
+
+
+.space-ul{
+    margin-top: 15px;
+}
+.fa-icon-envilope {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+.fa-phone{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+.fa-location-dot{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+
+
+.copyright{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #B1B1B1;
+    margin-top: 54px;
+}
+
+.Marius::before {
     background-image: url(../images/marius.png) ;
 }
